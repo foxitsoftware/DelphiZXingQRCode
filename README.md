@@ -10,9 +10,11 @@ DelphiZXingQRCode Project
 http://www.debenu.com/open-source/delphizxingqrcode-open-source-delphi-qr-code-generator/
 
 ZXing
+
 https://code.google.com/p/zxing/
 
 ZXing (GitHub Mirror)
+
 https://github.com/zxing/zxing
 
 # Getting Started #
