@@ -6,6 +6,7 @@ barcode image processing library. The code was ported to Delphi by Senior Debenu
 Kevin Newman. The port retains the original Apache License (v2.0).
 
 DelphiZXingQRCode Project
+
 http://www.debenu.com/open-source/delphizxingqrcode-open-source-delphi-qr-code-generator/
 
 ZXing
@@ -19,4 +20,4 @@ https://github.com/zxing/zxing
 A sample Delphi project is provided in the TestApp folder to demonstrate how to use DelphiZXingQRCode. 
 Simply add the DelphiZXIngQRCode.pas to the DelphiZXingQRCodeTestApp Delphi project and compile.
 
-[Debenu]
+[Provided by Debenu]
