@@ -1,7 +1,7 @@
 unit DelphiZXingQRCodeTestAppMainForm;
 
-// Demo app for ZXing QRCode port to Delphi, by Debenu Pty Ltd
-// www.debenu.com
+// Demo app for ZXing QRCode port to Delphi, by Debenu Pty Ltd (www.debenu.com)
+// Need a PDF SDK? Checkout Debenu Quick PDF Library: http://www.debenu.com/products/development/debenu-pdf-library/
 
 interface
 
