@@ -1,4 +1,4 @@
-DelphiZXingQRCode [provided by Debenu]
+DelphiZXingQRCode
 =================
 
 DelphiZXingQRCode is a Delphi port of the QR Code functionality from ZXing, an open source 
@@ -18,3 +18,5 @@ https://github.com/zxing/zxing
 
 A sample Delphi project is provided in the TestApp folder to demonstrate how to use DelphiZXingQRCode. 
 Simply add the DelphiZXIngQRCode.pas to the DelphiZXingQRCodeTestApp Delphi project and compile.
+
+[Debenu]
