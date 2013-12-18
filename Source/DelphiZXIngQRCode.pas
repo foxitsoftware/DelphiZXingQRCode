@@ -1,7 +1,6 @@
 unit DelphiZXingQRCode;
 
-// ZXing QRCode port to Delphi, by Debenu Pty Ltd
-// www.debenu.com
+// ZXing QRCode port to Delphi, by Debenu Pty Ltd (www.debenu.com)
 
 // Original copyright notice
 (*
