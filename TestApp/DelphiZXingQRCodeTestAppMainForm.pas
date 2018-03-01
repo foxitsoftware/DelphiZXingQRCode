@@ -8,7 +8,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, DelphiZXingQRCode, Vcl.ExtCtrls,
-  Vcl.StdCtrls;
+  Vcl.StdCtrls, TypInfo;
 
 type
   TForm1 = class(TForm)
@@ -55,7 +55,14 @@ begin
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
+var
+  CodeEncoding:TQRCodeEncoding;
 begin
+  cmbEncoding.Items.Clear;
+  for CodeEncoding:=Low(TQRCodeEncoding) to High(TQRCodeEncoding) do begin
+    cmbEncoding.Items.Add(GetEnumName(TypeInfo(TQRCodeEncoding),Ord(CodeEncoding)));
+  end;
+  cmbEncoding.ItemIndex:=0;
   QRCodeBitmap := TBitmap.Create;
   Update;
 end;
