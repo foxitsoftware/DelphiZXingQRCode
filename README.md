@@ -19,3 +19,4 @@ A sample Delphi project is provided in the TestApp folder to demonstrate how to 
 Simply add the DelphiZXIngQRCode.pas to the DelphiZXingQRCodeTestApp Delphi project and compile.
 
 [Provided by Debenu]
+
